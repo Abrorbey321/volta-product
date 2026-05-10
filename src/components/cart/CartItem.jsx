@@ -27,6 +27,7 @@ const CartItemRow = memo(({ item }) => {
           alt={item.product.name}
           className="w-20 h-20 object-cover rounded-xl border border-border"
           loading="lazy"
+          sizes="80px"
         />
       </Link>
 

@@ -46,6 +46,7 @@ const ProductCard = memo(({ product }) => {
           src={product.image}
           alt={product.name}
           loading="lazy"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           className="product-card-img w-full h-full object-cover"
         />
         {product.badge && (
